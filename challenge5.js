@@ -1,29 +1,26 @@
 function stringManipulation(word){
     switch (word[0]) {
         case 'a':
-            console.log('ayam')
+            console.log(word)
             break;
         case 'i':
-            console.log('ayam')
+            console.log(word)
             break;
         case 'u':
-            console.log('ayam')
+            console.log(word)
             break;
         case 'e':
-            console.log('ayam')
+            console.log(word)
             break;
         case 'o':
-            console.log('ayam')
+            console.log(word)
             break;
         default:
-            let hewanKonsonan = word.split('')
-            
-            hewanKonsonan.splice(0,1)
-            
-            hewanKonsonan.splice(4,0,'bnyo')
-            
-            let hewanBaru = hewanKonsonan.join('')
-            console.log(hewanBaru)
+      
+            let pisah = word.split('')
+            pisah.splice(0,1)
+            console.log(pisah.join('') + word[0] + 'nyo')
+
     }
 }
 
