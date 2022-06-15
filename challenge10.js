@@ -14,7 +14,7 @@ rl.on('line', (sentence) => {
     
     for(var i=0; i<pisah1.length; i++){
         var pisah2 = pisah1[i][0]
-        //console.log(pisah2)
+        
         switch (pisah2) {
             case 'a':
                 hasil.push(pisah1[i])

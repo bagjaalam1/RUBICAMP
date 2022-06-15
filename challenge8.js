@@ -1,5 +1,3 @@
-
-
 function pola(str) {
     var bagian = str.split('=')
     var firstStr = bagian[0].toString()

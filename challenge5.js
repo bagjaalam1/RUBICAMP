@@ -1,5 +1,5 @@
 function stringManipulation(word){
-    switch (word[0]) {
+    switch (word[0].toLowerCase()) {
         case 'a':
             console.log(word)
             break;
@@ -20,9 +20,7 @@ function stringManipulation(word){
             let pisah = word.split('')
             pisah.splice(0,1)
             console.log(pisah.join('') + word[0] + 'nyo')
-
     }
 }
-
 stringManipulation('ayam')
 stringManipulation('bebek')

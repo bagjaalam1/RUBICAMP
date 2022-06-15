@@ -1,8 +1,9 @@
 function indexPrime(par){
 
-    var counter = 0
+    var counter = 0 //function gaboleh ngambil ariable dari luar scopenya dia
     function checkPrime(param1){
-        for(let i=2; i < param1; i++){
+        
+        for(var i=2; i <= Math.sqrt(param1); i++){
             if(param1 % i === 0){
                 return false
             } 
@@ -11,8 +12,8 @@ function indexPrime(par){
         }
 
     for(var i=2; i<Infinity; i++){
-
         if (checkPrime(i)){
+            console.log(checkPrime(i))
             counter++
         }
         if (par == counter){
