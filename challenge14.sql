@@ -53,7 +53,3 @@ create table kontrak(
     foreign key (nidn) references dosen(nidn));
 
 insert into kontrak(nim, kodematkul, nidn, nilai) values 
-('NIM01', 'M0001', 'DOS01', 'A'),
-('NIM02', 'M0002', 'DOS02', 'F'),
-('NIM03', 'M0003', 'DOS02', 'C'),
-('NIM04', 'M0003', 'DOS02', 'C');
