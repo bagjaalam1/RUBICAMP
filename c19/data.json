@@ -1,1 +1,24 @@
-[{"string":"asdasd","integer":"34","float":"234.5534","date":"2022-07-07","boolean":"true"},{"string":"sadasdasd","integer":"22","float":"123.1","date":"2022-07-13","boolean":"false"},{"string":"asfd","integer":"34","float":"34.5","date":"2222-12-31","boolean":"true"}]
+[
+   {
+      "string": "satu",
+      "integer": "1",
+      "float": "1.2",
+      "date": "2022-07-12",
+      "boolean": "true"
+   },
+   {
+      "string": "dua",
+      "integer": "2",
+      "float": "2.2",
+      "date": "2002-12-12",
+      "boolean": "false"
+   },
+   {
+      "id": "2",
+      "string": "asd",
+      "integer": "321",
+      "float": "123.23",
+      "date": "3213-12-31",
+      "boolean": "false"
+   }
+]

@@ -50,6 +50,7 @@ app.get('/edit/:id', (req, res) => {
 
 app.post('/edit/:id', (req, res) => {
     data[req.params.id] = {
+        id : req.params.id,
         string: req.body.string,
         integer: req.body.integer,
         float: req.body.float,
